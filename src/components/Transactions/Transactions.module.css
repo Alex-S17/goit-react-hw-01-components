@@ -1,0 +1,29 @@
+.transactionHistory {
+  width: 500px;
+  margin-left: 40px; 
+  border-collapse: collapse;
+  border: 1px solid rgb(214, 211, 211);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.tableHeader {
+  height: 35px;
+  color: white;
+  border: 1px solid rgb(214, 211, 211);
+  background-color: #26bcb3;
+}
+
+.tableString {
+  height: 30px;
+  text-align: center;
+  font-size: 15px;
+  color: rgb(110, 101, 101, 1);
+}
+
+.tableString:nth-child(2n) {
+  background-color: #dbf2f3;
+}
+
+.tableCell {
+  border: 1px solid rgb(214, 211, 211);
+}
